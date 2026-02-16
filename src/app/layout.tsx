@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Pizzeria Jolly — Italienisch & Türkisch in Kufstein",
@@ -14,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de" className="scroll-smooth">
-      <body className="antialiased text-primary bg-white">{children}</body>
+      <body className="antialiased text-primary bg-white">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
