@@ -8,7 +8,7 @@ import { MenuSection } from "@/components/speisekarte/MenuSection";
 export const metadata: Metadata = {
   title: "Speisekarte — Pizzeria Jolly",
   description:
-    "Die vollständige Speisekarte der Pizzeria Jolly in Kufstein: Pizza, Pasta, türkische Spezialitäten, Frühstück, Salate und Desserts.",
+    "Die vollständige Speisekarte der Pizzeria Jolly in Kufstein: Pizza, Pasta, Pide, Burger, Salate, Snacks, Spezials, Desserts und Getränke.",
 };
 
 export default async function SpeisekartePage({
